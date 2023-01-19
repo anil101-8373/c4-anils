@@ -337,7 +337,7 @@ B##########BPPPPPPPPP!^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^!!!!!!!
     sleep(1)
     system("cls||clear")
     try:
-        menu = int(input(Fore.LIGHTWHITE_EX + "1- SMS Boomber\n2- Call Boomber\n\n" + Fore.LIGHTGREEN_EX + ": "))
+        menu = int(input(Fore.LIGHTWHITE_EX + "1- SMS Boomber\n2- Call Boomber(Kapalı)\n\n" + Fore.LIGHTGREEN_EX + ": "))
     except ValueError:
         system("cls||clear")
         print(Fore.LIGHTRED_EX + "Hatalı Giriş.")
