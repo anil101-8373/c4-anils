@@ -12,8 +12,8 @@ else:
     with open("sms.py", "w", encoding="utf-8") as f:
         f.write(r)
 from sms import SendSms
-r = get("https://raw.githubusercontent.com/anil101-8373/c4-anils/main/call.py").text
-with open("call.py", "r", encoding="utf-8") as f:
+r = get("https://raw.githubusercontent.com/anil101-8373/c4-anils/main/anil101.py").text
+with open("anil101.py", "r", encoding="utf-8") as f:
     read = f.read()
 if read == r:
     pass
