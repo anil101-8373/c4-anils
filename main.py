@@ -55,28 +55,26 @@ def answer():
         print("""
 1.Login
 2.Register
-3.Upgrade
-4.License Key Only
         """)
-        ans = input("Select Option: ")
+        ans = input("Seçim: ")
         if ans == "1":
-            user = input('Provide username: ')
-            password = input('Provide password: ')
+            user = input('Kullanıcı: ')
+            password = input('Şifre: ')
             keyauthapp.login(user, password)
         elif ans == "2":
-            user = input('Provide username: ')
-            password = input('Provide password: ')
-            license = input('Provide License: ')
+            user = input('Kullanıcı: ')
+            password = input('Şifre: ')
+            license = input('Lisans: ')
             keyauthapp.register(user, password, license)
         elif ans == "3":
-            user = input('Provide username: ')
-            license = input('Provide License: ')
+            user = input('Kullanıcı: ')
+            license = input('Lisans: ')
             keyauthapp.upgrade(user, license)
         elif ans == "4":
-            key = input('Enter your license: ')
+            key = input('Senin Lisansın Enterla: ')
             keyauthapp.license(key)
         else:
-            print("\nNot Valid Option")
+            print("\nSeçim Bulunamadi")
             time.sleep(1)
             os.system('cls')
             answer()
