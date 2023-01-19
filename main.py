@@ -53,8 +53,8 @@ keyauthapp = api(
 def answer():
     try:
         print("""
-1.Login
-2.Register
+1.Giriş
+2.Kayıt
         """)
         ans = input("Seçim: ")
         if ans == "1":
