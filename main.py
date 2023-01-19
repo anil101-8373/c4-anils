@@ -31,7 +31,7 @@ elif platform.system() == 'Darwin':
     os.system("clear && printf '\e[3J'")  # clear console
     os.system('''echo - n - e "\033]0;Python Example\007"''')  # change title
 
-print("by 'anil101#8373'")
+print("by 'anil101#8373' https://discord.gg/2cwuvpnff9")
 
 
 def getchecksum():
@@ -326,17 +326,15 @@ B##########BPPPPPPPPP!^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^!!!!!!!
     system("cls||clear")
     print(Fore.LIGHTRED_EX + "Dosyalar Kontrol Ediliyor")
     print(Fore.LIGHTWHITE_EX + "Dosyalar Kontrol Ediliyor")
-    print(Fore.LIGHTBLUE_EX + "Dosyalar Kontrol Ediliyor")
-    print(Fore.LIGHTYELLOW_EX + "Dosyalar Kontrol Ediliyor")
     sleep(1)
     system("cls||clear")
     print(Fore.LIGHTRED_EX + "Dogrulandı")
     print(Fore.LIGHTWHITE_EX + "Dogrulandı")
-    print(Fore.LIGHTBLUE_EX + "Dogrulandı")
-    print(Fore.LIGHTGREEN_EX + "Dogrulandı")
     sleep(1)
     system("cls||clear") 
-    print(Fore.LIGHTRED_EX + "developer 'anil101#8373'")
+    print(Fore.LIGHTRED_EX + "by anil101#8373")
+    print(Fore.LIGHTWHITE_EX + "by anil101#8373")
+    sleep(1)
     system("cls||clear")
     try:
         menu = int(input(Fore.LIGHTWHITE_EX + "1- SMS Boomber\n2- Call Boomber\n\n" + Fore.LIGHTGREEN_EX + ": "))
