@@ -31,7 +31,7 @@ elif platform.system() == 'Darwin':
     os.system("clear && printf '\e[3J'")  # clear console
     os.system('''echo - n - e "\033]0;Python Example\007"''')  # change title
 
-print("Yukleniyor...")
+print("Yukleniyor")
 
 
 def getchecksum():
