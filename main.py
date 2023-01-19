@@ -332,8 +332,8 @@ B##########BPPPPPPPPP!^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^!!!!!!!
     print(Fore.LIGHTWHITE_EX + "Dogrulandı")
     sleep(1)
     system("cls||clear") 
-    print(Fore.LIGHTRED_EX + "by anil101#8373")
-    print(Fore.LIGHTWHITE_EX + "by anil101#8373")
+    print(Fore.LIGHTRED_EX + "iade yasaktır.")
+    print(Fore.LIGHTWHITE_EX + "key paylaşmak yasaktır.")
     sleep(1)
     system("cls||clear")
     try:
