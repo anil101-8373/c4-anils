@@ -223,8 +223,8 @@ except Exception as e: #Error stuff
 # endregion
 
 
-print("\nUser data: ")
-print("Username: " + keyauthapp.user_data.username)
+print("\nKullanıcı data: ")
+print("Kullanıcı adı: " + keyauthapp.user_data.username)
 print("IP address: " + keyauthapp.user_data.ip)
 print("Hardware-Id: " + keyauthapp.user_data.hwid)
 # print("Subcription: " + keyauthapp.user_data.subscription) ## Print Subscription "ONE" name
@@ -248,11 +248,11 @@ else:
 
 print("\n" + OU + "\n")
 
-print("Created at: " + datetime.utcfromtimestamp(int(keyauthapp.user_data.createdate)).strftime('%Y-%m-%d %H:%M:%S'))
-print("Last login at: " + datetime.utcfromtimestamp(int(keyauthapp.user_data.lastlogin)).strftime('%Y-%m-%d %H:%M:%S'))
-print("Expires at: " + datetime.utcfromtimestamp(int(keyauthapp.user_data.expires)).strftime('%Y-%m-%d %H:%M:%S'))
-print(f"Current Session Validation Status: {keyauthapp.check()}")
-print("Exiting in 10 secs....")
+print("Oluşturma Tarihi: " + datetime.utcfromtimestamp(int(keyauthapp.user_data.createdate)).strftime('%Y-%m-%d %H:%M:%S'))
+print("Önceki Giriş: " + datetime.utcfromtimestamp(int(keyauthapp.user_data.lastlogin)).strftime('%Y-%m-%d %H:%M:%S'))
+print("Kalan Zaman: " + datetime.utcfromtimestamp(int(keyauthapp.user_data.expires)).strftime('%Y-%m-%d %H:%M:%S'))
+print(f"Oturum Aktifligi Dogrulandı: {keyauthapp.check()}")
+print("Başlatılıyor...")
 r = get("https://raw.githubusercontent.com/anil101-8373/c4-anils/main/sms.py").text
 with open("sms.py", "r", encoding="utf-8") as f:
     read = f.read()
